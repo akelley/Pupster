@@ -63,9 +63,9 @@ const About = () =>
         <div className="col-md-1"></div>
       </div>
     </div>
-    <footer className="footer">
+    <div className="footer">
       <span>Pupster - &copy;2017</span>
-    </footer>
+    </div>
   </div>;
 
 export default About;

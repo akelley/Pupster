@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navpills.css";
+import "./Navbar.css";
 
-const Navpills = () =>
+const Navbar = () =>
   <nav className="navbar navbar-default">
     <ul className="nav navbar-nav">
       <li className={window.location.pathname === "/" ? "active" : ""}>
@@ -12,12 +12,12 @@ const Navpills = () =>
         <Link to="/about">About</Link>
       </li>
       <li className={window.location.pathname === "/discover" ? "active" : ""}>
-        <Link to="/blog">Discover</Link>
+        <Link to="/discover">Discover</Link>
       </li>
       <li className={window.location.pathname === "/search" ? "active" : ""}>
-        <Link to="/contact">Search</Link>
+        <Link to="/search">Search</Link>
       </li>
     </ul>
   </nav>;
 
-export default Navpills;
+export default Navbar;

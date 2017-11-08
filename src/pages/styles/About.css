@@ -17,16 +17,16 @@ h1.title, h2.title {
 }
 
 div.main-section{
-	margin: 40px 0;
+	margin: 20px 0 40px 0;
 }
 
-.footer{
-  position: relative;
+div.footer{
+  position: relative!important;
   width: 100%;
   bottom: 0;
-  padding: 3px;
   background: #b8b8b8;
   padding: 10px 0;
   text-align: center;
   margin: 40px 0 0 0;
+  clear: both;
  }

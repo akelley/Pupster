@@ -1,0 +1,56 @@
+.card {
+  background-size: cover;
+  background-position: 50%;
+  background-clip: content-box;
+  border: 6px solid #fff;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card-btn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border: none;
+  bottom: 10%;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: 0;
+}
+
+.pass {
+  left: 1%;
+  background: #e53935;
+}
+
+.pass:after {
+	content: "\F165";
+}
+
+.pick {
+  right: 1%;
+  background: #43a047;
+}
+
+.pick:after {
+	content: "\F164";
+}
+
+.footer{
+  position: absolute!important;
+  width: 100%;
+  bottom: 0;
+  padding: 3px;
+  background: #b8b8b8;
+  padding: 10px 0;
+  text-align: center;
+  margin: 40px 0 0 0;
+ }

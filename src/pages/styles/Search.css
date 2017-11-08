@@ -1,0 +1,13 @@
+div.footer{
+  position: absolute!important;
+  width: 100%;
+  bottom: 0;
+  background: #b8b8b8;
+  padding: 10px 0;
+  text-align: center;
+  clear: both;
+ }
+
+ .btn {
+ 	margin: 5px 0 0 0;
+ }

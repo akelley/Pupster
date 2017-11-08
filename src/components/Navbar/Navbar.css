@@ -1,0 +1,17 @@
+.navbar, .navbar-default {
+	margin: 0;
+	color: #777
+}
+
+.navbar {
+	height: auto!important;
+	background: #f8f8f8!important;
+
+}
+
+.navbar a {
+	margin: 0!important;
+	font-size: 1em!important;
+	font-weight: normal;
+	color: #777;
+}
